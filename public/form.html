@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h2>Ejercicio de conexión FRONT > BACK</h2>
+
+    <div id="infoMaster"></div>
+    <div id="infoMasterBtn"> Click aquí para obtener más datos </div>
+
+    <form action="/sendInfo" method="post">
+        <label for="infoName"> Nombre </label><br>
+        <input type="text" name="infoName" id="infoName"> <br><br>
+
+        <label for="infoEmail"> Email </label><br>
+        <input type="text" name="infoEmail" id="infoEmail"><br><br>
+
+        <label for="infoSerial"> Contraseña </label><br>
+        <input type="text" name="infoSerial" id="infoSerial"><br><br>
+
+        <input type="submit" value="Enviar">
+    
+    </form>
+
+
+    <script src="https://www.gstatic.com/firebasejs/8.3.0/firebase-app.js"></script>
+    
+    <script src="js/main.js"></script>
+    
+</body>
+</html>

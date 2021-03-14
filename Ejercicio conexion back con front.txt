@@ -1,0 +1,34 @@
+// ----------------- MODO FACIL ( MEMORIA )
+
+BACK
+Web server por Express
+
+con dos endopoints --> GET / devuelva un objeto dameAlgo
+                       POST / devuelva tomaAlgo
+
+(primero en Memoria --> Variable en back que sea un array de strings)
+(Servidor recibirá una palabra y la añadirá a su base de datos de palabras). Pod  emos hacer un fetch que al hacer clic devuelva la palabra en cuestión.
+
+FRONT
+Un botón para obtener la palabra por fetch de tipo get a dameAlgo
+Una caja que pinte la palabra obtenida 
+
+un input de texto àra guardar la palabra del usuario 
+Un botón para fechear la palabra por fetch post a tomaAlgo
+
+
+
+
+
+
+// ------------------- MODO MEDIO ( FICHERO JSON creado por EXPRESS)
+FRONT =
+
+BACK
+Enlace ---- > w3school node js filesystem
+https://www.w3schools.com/nodejs/nodejs_filesystem.asp 
+
+
+
+
+// -------------------- MODO DIFICIL ( FIREBASE )
